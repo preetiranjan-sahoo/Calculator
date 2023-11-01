@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(34, 33, 33);
+
+}
+input{
+    width: 335px;
+    border-bottom: 1px solid rgb(77, 74, 74);
+    border-right: none;
+    padding: 24px;
+    margin: 10px 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+}
+input::placeholder{
+    color: #fff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.eqlbtn{
+    background-color: rgb(234, 113, 8);
+    border-radius: 50%;
+    font-size: 25px;
+}
+.orange-btn{
+    color: rgb(234, 113, 8);
+}
+.orange-btn.large{
+    font-size: 25px;
+}
+#lastrow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
